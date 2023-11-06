@@ -6,7 +6,7 @@ class MyHomePage extends StatelessWidget {
   final List<ShopItem> items = [
     ShopItem("Lihat Item", Icons.checklist, const Color.fromARGB(255, 69, 168, 250)),
     ShopItem("Tambah Item", Icons.add_shopping_cart, Colors.indigo),
-    ShopItem("Logout", Icons.logout, Color.fromARGB(255, 200, 118, 146)),
+    ShopItem("Logout", Icons.logout, const Color.fromARGB(255, 200, 118, 146)),
   ];
   // This widget is the home page of your application. It is stateful, meaning
   // that it has a State object (defined below) that contains fields that affect
