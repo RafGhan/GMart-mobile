@@ -213,7 +213,9 @@ onTap: () {
     ));
 },
 ``` 
+</details>
 
+<details>
 <summary>2. Jelaskan masing-masing layout widget pada Flutter dan konteks penggunaannya masing-masing!</summary>
 
 * ```Container```
@@ -233,11 +235,15 @@ _Widget_ yang memungkinkan penumpukan (layer) _widget_ di atas satu sama lain.
 
 * ```Expanded``` dan ```Flexible```
 ```Expanded``` digunakan untuk mengisi ruang yang tersedia dalam ```Row```, ```Column```, atau ```Flex``` sesuai dengan proporsi yang ditentukan. ```Flexible``` memberikan kontrol yang lebih besar terhadap cara ruang ditetapkan untuk widget dalam tata letak yang bisa diubah-ubah.  
+</details>
 
+<details>
 <summary>3. Sebutkan apa saja elemen input pada form yang kamu pakai pada tugas kali ini dan jelaskan mengapa kamu menggunakan elemen input tersebut!</summary>
 
 Pada tugas kali ini, saya menggunakan  ```TextFormField``` sebagai elemen input data seperti ```name```, ```amount```, ```description```, dan ```type```. Alasan saya menggunakan ```TextFormField``` karena ```TextFormField``` memberikan kemudahan untuk mengambil dan mengelola input data. Selain itu, ```TextFormField``` juga memberikan fitur bawaan seperti validator yang dapat saya gunakan untuk memvalidasi ketika inputnya masih kosong ketika tombol save dipencet dan memvalidasi ketika tipe data yang kita input tidak sesuai.
+</details>
 
+<details>
 <summary>4. Bagaimana penerapan clean architecture pada aplikasi Flutter?</summary>
 
 Implementasi Clean Architecture pada aplikasi Flutter bertujuan untuk memisahkan ide bisnis dari infrastruktur dan detail teknis lainnya. Umumnya, arsitektur ini terdiri dari tiga lapisan, yaitu _Domain Layer_, _Data Layer_, dan _Presentation Layer_.
@@ -247,7 +253,9 @@ Implementasi Clean Architecture pada aplikasi Flutter bertujuan untuk memisahkan
 * _Data Layer_: Berisi implementasi teknis seperti repository, data sources (API, database), dan transformasi data.
 
 * _Presentation Layer_: Bertanggung jawab atas tampilan UI, state management, dan logika yang terkait dengan tampilan.
+</details>
 
+<details>
 <summary>5. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step! (bukan hanya sekadar mengikuti tutorial)</summary>
 
 - [x] Membuat minimal satu halaman baru pada aplikasi, yaitu halaman formulir tambah item baru dengan ketentuan sebagai berikut:

@@ -19,7 +19,7 @@ class Item {
   Item(this.name, this.amount, this.description, this.type);
 }
 
-List<Item>listitem = [];
+List<Item> listItem = [];
 
 class ShopCard extends StatelessWidget {
   final ShopItem item;

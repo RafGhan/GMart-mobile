@@ -33,11 +33,11 @@ class _ListItemPageState extends State<ListItemPage>{
             children: [
               ListView.builder(
                 shrinkWrap: true,
-                itemCount: listitem.length,
+                itemCount: listItem.length,
                 itemBuilder: (BuildContext context, int i){
                   return ListTile(
                     title: Text(
-                      "${i + 1}. ${listitem[i].name}",
+                      "${i + 1}. ${listItem[i].name}",
                       textAlign: TextAlign.left,
                       style: const TextStyle(
                         fontSize: 30,
@@ -46,7 +46,7 @@ class _ListItemPageState extends State<ListItemPage>{
                     ),
                     subtitle: Container(
                       child: Text(
-                        'Jumlah: ${listitem[i].amount}\nDeskripsi: ${listitem[i].description}\nTipe: ${listitem[i].type}',
+                        'Jumlah: ${listItem[i].amount}\nDeskripsi: ${listItem[i].description}\nTipe: ${listItem[i].type}',
                         textAlign: TextAlign.left,
                       ),
                     ),

@@ -141,7 +141,7 @@ class _ShopFormPageState extends State<ShopFormPage> {
                       ),
                       onPressed: () {
                         if (_formKey.currentState!.validate()) {
-                          listitem.add(Item(_name, _amount, _description, _type)); // save ke list item
+                          listItem.add(Item(_name, _amount, _description, _type)); // save ke list item
                           showDialog(
                             context: context,
                             builder: (context) {
