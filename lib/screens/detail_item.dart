@@ -53,10 +53,9 @@ class _DetailItemPageState extends State<DetailItemPage> {
             ),
             ElevatedButton(
               onPressed: () {
-                // Navigasi kembali ketika tombol ditekan
                 Navigator.pop(context);
               },
-              child: const Text('Kembali'),
+              child: const Text('Back'),
             ),            
           ],
         ),
